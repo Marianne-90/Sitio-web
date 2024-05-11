@@ -1,0 +1,22 @@
+.temporal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.temporal h1{
+    text-transform: uppercase;
+    color: rgb(4, 55, 102);
+    font-family: "Unna", serif;
+}
+
+.temporal .img-cont{
+    width: 50%;
+    overflow: hidden;
+}
+
+.temporal .img-cont img{
+width: 100%;
+}

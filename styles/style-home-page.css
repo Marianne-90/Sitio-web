@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,700;0,900;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+
+
+.homePagePBanner{
+    display: flex;
+    background: rgb(15, 109, 173);
+    background: linear-gradient(
+      90deg,
+      rgb(172, 214, 241) 0%,
+      rgb(187, 225, 249) 100%
+    );
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
+
+.homePagePBanner .text {
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.homePagePBanner .text h2{
+    font-family: "Unna", serif;
+    font-weight: 200;
+    color: rgb(4, 55, 102);
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.homePagePBanner .text h2 span{
+    color: white;
+    font-size: 80px;
+}
+
+.homePagePBanner .text button{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(203, 34, 62);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color:white;
+}
+.homePagePBanner .text button:hover{
+    background-color: rgb(203, 144, 34);
+}
+
+
+
+.homePagePBanner .image{
+    width: 50%;
+    overflow: hidden;
+    min-width: 200px;
+    border-radius: 50% 0 50% 0;
+}
+
+.homePagePBanner .image img {
+    width: 100%;
+}
+
+.lo-mas-buscado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.lo-mas-buscado h4 { 
+    padding: 20px 0 20px 0;
+    font-family: "Unna", serif;
+    text-transform: uppercase;
+    color: rgb(73, 72, 72);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+.lo-mas-buscado #imgcontenedor{
+    width: 70%;
+    overflow: hidden;
+    border: rgb(193, 192, 192) 1px solid;
+    
+}
+
+.lo-mas-buscado #imgcontenedor .blocklmb{
+    display: flex;
+    position: relative;
+}
+.lo-mas-buscado #imgcontenedor .producto{
+    width: 250px;
+    display: flex;
+    padding: 5px;
+}
+
+.lo-mas-buscado #imgcontenedor .producto .img {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.lo-mas-buscado #imgcontenedor .producto .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.lo-mas-buscado #imgcontenedor .producto .text{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:5px
+}
+
+.lo-mas-buscado #imgcontenedor .producto .text .titulo{
+    color: rgb(29, 28, 28);
+    font-size: 14px;
+    text-align: center;
+}
+
+.lo-mas-buscado #imgcontenedor .producto .text .precio{
+    color: rgb(131, 130, 130);
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.lo-mas-buscado #imgcontenedor .producto .text .envio{
+    color: rgb(46, 167, 9);
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.lo-mas-buscado .galerialmb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lo-mas-buscado .galerialmb button{
+    border: none;
+    background: none;
+    color:  rgb(203, 34, 62);
+    cursor: pointer;
+}
+
+/*! BANNER DE PROMOCIONES */
+
+.promociones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.promociones h4 { 
+    padding: 20px 0 20px 0;
+    font-family: "Unna", serif;
+    text-transform: uppercase;
+    color: rgb(73, 72, 72);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+.promociones #imgcontenedor-promociones{
+    width: 70%;
+    overflow: hidden;
+    border: rgb(193, 192, 192) 1px solid;
+    
+}
+
+.promociones #imgcontenedor-promociones .blockpromo{
+    display: flex;
+    position: relative;
+}
+.promociones #imgcontenedor-promociones .producto{
+    width: 250px;
+    display: flex;
+    padding: 5px;
+}
+
+.promociones #imgcontenedor-promociones .producto .img {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.promociones #imgcontenedor-promociones .producto .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.promociones #imgcontenedor-promociones .producto .text{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:5px
+}
+
+.promociones #imgcontenedor-promociones .producto .text .titulo{
+    color: rgb(29, 28, 28);
+    font-size: 14px;
+    text-align: center;
+}
+
+.promociones #imgcontenedor-promociones .producto .text .precio{
+    color: rgb(131, 130, 130);
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.promociones #imgcontenedor-promociones .producto .text .envio{
+    color: rgb(46, 167, 9);
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+.promociones #imgcontenedor-promociones .producto .text .promo {
+    color: rgb(203, 34, 62);
+    position:absolute;
+    margin-left: -30px;
+    margin-bottom: 40px;
+    width: 60px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.promociones .galeria-p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.promociones .galeria-p button{
+    border: none;
+    background: none;
+    color:  rgb(203, 34, 62);
+    cursor: pointer;
+}

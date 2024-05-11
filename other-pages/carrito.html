@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c4fbeb2379.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/style-nav.css" />
+    <link rel="stylesheet" href="../styles/style-main.css" />
+    <link rel="stylesheet" href="../styles/temporal.css" />
+    <title>Ofimov</title>
+  </head>
+  <body>
+    <div class="yellow-box"></div>
+    <div class="main-container" onclick="hideItems(event)">
+      <nav>
+        <div id="nav-n1">
+          <i class="fa-regular fa-circle"></i>
+          <p>Diseñando el futuro</p>
+          <i class="fa-regular fa-circle"></i>
+        </div>
+        <div id="nav-n2">
+          <div id="logo">
+            <h4>OFIMOV</h4>
+          </div>
+        </div>
+        <div id="nav-n3">
+          <div id="iconos">
+            <div id="searchbar">
+              <form action="">
+                <input type="text" id="search" />
+                <button type="submit">
+                  <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+                </button>
+              </form>
+            </div>
+            <a href="./carrito.html"
+              ><i class="fa-solid fa-cart-arrow-down fa-1x"></i
+            ></a>
+            <a href="./user.html"
+              ><i class="fa-solid fa-user fa-1x"></i>
+            </a>
+          </div>
+        </div>
+        <div id="nav-n4">
+            <button class="menuMain" onclick="displayMainMenu()">Menu</button>
+          <div class="container">
+          <a href="../index.html" class="inicio">inicio</a>
+
+          <a class="catalogos" onclick="categoryMenu(event)"
+            >catálogos <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <ul class="category-sub-list">
+            <a href="./catálogos.html?catalogo=c2021"
+              ><li>2021</li></a
+            >
+            <a href="./catálogos.html?catalogo=c2022"
+              ><li>2022</li></a
+            >
+            <a href="./catálogos.html?catalogo=c2023"
+              ><li>2023</li></a
+            >
+          </ul>
+          <a href="./quienes-somos.html" class="quienes-somos"
+            >quienes somos</a
+          >
+          <a href="./contacto.html" class="contacto">contacto</a>
+          <a href="./ayuda.html" class="ayuda">ayuda</a>
+        
+        </div>
+      </nav>
+      <div class="temporal">
+        <h1>Carrito</h1>
+        <div class="img-cont">
+        <img src="../images/temp.jpg" alt="constucción">
+        </div>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,307 @@
+.productmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productmain h1 {
+  color: rgb(203, 34, 62);
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.productmain .guia,
+.productmain .guia > a {
+  text-transform: uppercase;
+  color: rgb(203, 34, 62);
+  font-size: 13px;
+}
+.productmain .guia {
+  margin-bottom: 30px;
+}
+.productmain .text-and-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.productmain .text-and-image-container .imageContainer {
+  border: rgb(197, 196, 196) 1px solid;
+  width: 40%;
+  min-width: 200px;
+  height: 30vw;
+  overflow: hidden;
+  margin-left: 15px;
+}
+
+.productmain .text-and-image-container .imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.productmain .text-and-image-container .imageContainer .principal-image {
+  overflow: hidden;
+  border-left: rgb(197, 196, 196) 1px solid;
+  min-width: 200px;
+  height: 30vw;
+}
+
+.productmain .text-and-image-container .imageContainer .image-prev {
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.productmain .text-and-image-container .textContainer {
+  width: 50%;
+  margin-left: 40px;
+  margin-right: 1%;
+  margin-top: 15px;
+}
+
+.productmain .text-and-image-container .textContainer .precio {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(4, 55, 102);
+}
+
+.productmain .text-and-image-container .textContainer ul {
+  list-style: none;
+}
+
+.productmain .text-and-image-container .textContainer ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-style: italic;
+  color: grey;
+}
+
+.productmain .text-and-image-container .textContainer ul li i {
+  color: rgb(203, 34, 62);
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.productmain .text-and-image-container .textContainer .description {
+  background-color: rgb(234, 232, 232);
+  padding: 25px;
+  margin-top: 20px;
+  border-left: rgb(203, 34, 62) 15px solid;
+  font-size: 14px;
+}
+
+.productmain .text-and-image-container .textContainer .disponibles {
+  color: rgb(203, 34, 62);
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.productmain .text-and-image-container .textContainer .anadir-carrito {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.productmain .text-and-image-container .textContainer .anadir-carrito .sumar {
+  background-color: rgb(234, 232, 232);
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.productmain
+  .text-and-image-container
+  .textContainer
+  .anadir-carrito
+  .sumar
+  .suma {
+  color: rgb(203, 34, 62);
+  font-size: 35px;
+  padding: 0 !important;
+  background: none;
+  border: none;
+  position: absolute;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.productmain
+  .text-and-image-container
+  .textContainer
+  .anadir-carrito
+  .sumar
+  .resta {
+  color: rgb(203, 34, 62);
+  font-size: 35px;
+  padding: 0 !important;
+  background: none;
+  border: none;
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -40px;
+  cursor: pointer;
+}
+
+.productmain .text-and-image-container .textContainer .anadir-carrito > button {
+  color: rgb(4, 55, 102);
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 10px;
+}
+.productmain
+  .text-and-image-container
+  .textContainer
+  .anadir-carrito
+  > button
+  i {
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+.productmain .opiniones {
+  margin-top: 10px;
+  width: 100%;
+  padding: 30px;
+  /* background-color: rgb(234, 232, 232); */
+}
+
+.productmain .opiniones h4 {
+  text-transform: uppercase;
+  color: rgb(203, 34, 62);
+  font-size: 17px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.productmain .opiniones .opiniones-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.productmain .opiniones .opiniones-container .opinion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  gap: 10px;
+  background-color: rgb(230, 255, 222);
+  padding: 20px 5px;
+}
+
+.productmain .opiniones .opiniones-container .img-container {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 35px;
+}
+
+.productmain .opiniones .opiniones-container .img-container img {
+  width: 100%;
+}
+
+.productmain .opiniones .opiniones-container .text {
+  width: 150px;
+}
+
+.productmain .opiniones .opiniones-container .text .fecha {
+  font-size: 12px;
+}
+
+.productmain .opiniones .opiniones-container .text .nombre {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.productmain .opiniones .opiniones-container .text .califica {
+  color: rgb(203, 34, 62);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.productmain .opiniones .opiniones-container .text .comentario {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.example {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.example img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+@media only screen and (max-width: 673px) {
+
+
+  .productmain .text-and-image-container .textContainer {
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 1%;
+    margin-top: 15px;
+  }
+
+
+}
+
+@media only screen and (max-width: 535px) {
+
+  .productmain h1 {
+    margin: 40px 0 5px 5px;
+  }
+
+
+  .productmain .text-and-image-container .textContainer {
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 1%;
+    margin-top: 15px;
+  }
+
+
+  .productmain .guia {
+    margin-left: 5px;
+  margin-bottom: 30px;
+}
+
+.productmain .opiniones .opiniones-container .opinion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 10px;
+  background-color: rgb(230, 255, 222);
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.productmain .opiniones .opiniones-container {
+  width: 100%;
+  padding: 0px;
+
+}
+
+}

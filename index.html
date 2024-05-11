@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c4fbeb2379.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style-nav.css" />
+    <link rel="stylesheet" href="./styles/style-main.css" />
+    <link rel="stylesheet" href="./styles/style-home-page.css" />
+    <title>Ofimov</title>
+  </head>
+  <body>
+    <div class="yellow-box"></div>
+    <div class="main-container" onclick="hideItems(event)">
+      <nav>
+        <div id="nav-n1">
+          <i class="fa-regular fa-circle"></i>
+          <p>Diseñando el futuro</p>
+          <i class="fa-regular fa-circle"></i>
+        </div>
+        <div id="nav-n2">
+          <div id="logo">
+            <h4>OFIMOV</h4>
+          </div>
+        </div>
+        <div id="nav-n3">
+          <div id="iconos">
+            <div id="searchbar">
+              <form action="">
+                <input type="text" id="search" />
+                <button type="submit">
+                  <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+                </button>
+              </form>
+            </div>
+            <a href="./other-pages/carrito.html"
+              ><i class="fa-solid fa-cart-arrow-down fa-1x"></i
+            ></a>
+            <a href="./other-pages/user.html"
+              ><i class="fa-solid fa-user fa-1x"></i>
+            </a>
+          </div>
+        </div>
+        <div id="nav-n4">
+            <button class="menuMain" onclick="displayMainMenu()">Menu</button>
+          <div class="container">
+          <a href="./index.html" class="inicio">inicio</a>
+
+          <a class="catalogos" onclick="categoryMenu(event)"
+            >catálogos <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <ul class="category-sub-list">
+            <a href="./other-pages/catálogos.html?catalogo=c2021"
+              ><li>2021</li></a
+            >
+            <a href="./other-pages/catálogos.html?catalogo=c2022"
+              ><li>2022</li></a
+            >
+            <a href="./other-pages/catálogos.html?catalogo=c2023"
+              ><li>2023</li></a
+            >
+          </ul>
+          <a href="./other-pages/quienes-somos.html" class="quienes-somos"
+            >quienes somos</a
+          >
+          <a href="./other-pages/contacto.html" class="contacto">contacto</a>
+          <a href="./other-pages/ayuda.html" class="ayuda">ayuda</a>
+        
+        </div>
+      </nav>
+      <main>
+        <div class="homePagePBanner">
+          <div class="text">
+            <h2>
+              Conoce <br />
+              la nueva colección <br />
+              <span>2023</span>
+            </h2>
+            <a href="./other-pages/catálogos.html?catalogo=c2023"
+              ><button>ver más</button></a
+            >
+          </div>
+          <div class="image">
+            <img
+              src="./images/silla minimalista.jpg"
+              alt="ofimov colección 2023"
+            />
+          </div>
+        </div>
+        <div class="lo-mas-buscado">
+          <h4>Lo más buscado</h4>
+          <div class="galerialmb">
+            <button onclick="buttonLeft()"><i class="fa-solid fa-caret-left fa-6x"></i></button>
+            <div id="imgcontenedor">
+              <div class="blocklmb" >
+                <a class="producto" href="./other-pages/productos/escritorio-blanco.html">
+                  <div class="img">
+                    <img src="./images/escritorio_blaco.jpg" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="titulo">Escritorio Blanco</p>
+                    <p class="precio">$1,392</p>
+                    <p class="envio"><i>envío gratis</i></p>
+                  </div>
+                </a>
+
+                <a class="producto" href="./other-pages/productos/camara-moderna.html">
+                  <div class="img">
+                    <img src="./images/camara_moderna.jpg" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="titulo">Camara Moderna</p>
+                    <p class="precio">$99</p>
+                    <p class="envio"><i>envío gratis</i></p>
+                  </div>
+                </a>
+
+                <a class="producto" href="./other-pages/productos/camara.html">
+                  <div class="img">
+                    <img src="./images/camara.jpg" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="titulo">Cámara</p>
+                    <p class="precio">$78</p>
+                    <p class="envio"><i>envío gratis</i></p>
+                  </div>
+                </a>
+
+                <a class="producto" href="./other-pages/productos/mesa-ejecutiva.html">
+                  <div class="img">
+                    <img src="./images/mesa ejecutiva.jpg" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="titulo">Mesa Ejecutiva</p>
+                    <p class="precio">$1994</p>
+                    <p class="envio"><i>envío gratis</i></p>
+                  </div>
+                </a>
+
+                <a class="producto" href="./other-pages/productos/sello.html">
+                  <div class="img">
+                    <img src="./images/sello.jpg" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="titulo">Sello</p>
+                    <p class="precio">$45</p>
+                    <p class="envio"><i>envío gratis</i></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <button onclick="buttonRigth()"><i class="fa-solid fa-caret-right fa-6x"></i></button>
+          </div>
+
+          
+
+
+
+        </div>
+
+
+        <div class="promociones">
+            <h4>Promociones</h4>
+            <div class="galeria-p">
+              <button onclick="buttonLeftPromotion()">
+                <i class="fa-solid fa-caret-left fa-6x"></i>
+              </button>
+              <div id="imgcontenedor-promociones">
+                <div class="blockpromo" >
+                  <a class="producto" href="./other-pages/productos/escritorios.html">
+                    <div class="img">
+                      <img src="./images/escritorios.jpg" alt="" />
+                    </div>
+                    <div class="text">
+                      <p class="titulo">Juego de 3 escritorios</p>
+                      <span class="promo">-%20</span>
+                      <p class="precio">$3,088</p>
+                      <p class="envio"><i>envío gratis</i></p>
+                    </div>
+                  </a>
+
+                  <a class="producto" href="./other-pages/productos/oficina.html">
+                    <div class="img">
+                      <img src="./images/oficina.jpg" alt="" />
+                    </div>
+                    <div class="text">
+                      <p class="titulo">Set Oficina</p>
+                      <span class="promo">-%30</span>
+                      <p class="precio">$8,104</p>
+                      <p class="envio"><i>envío gratis</i></p>
+                    </div>
+                  </a>
+
+                  <a class="producto" href="./other-pages/productos/silla-minimalista.html">
+                    <div class="img">
+                      <img src="./images/silla minimalista.jpg" alt="" />
+                    </div>
+                    <div class="text">
+                      <p class="titulo">Silla Minimalista</p>
+                      <span class="promo">-%30</span>
+                      <p class="precio">$1,300</p>
+                      <p class="envio"><i>envío gratis</i></p>
+                    </div>
+                  </a>
+
+                  <a class="producto" href="./other-pages/productos/sillas-ejecutivas.html">
+                    <div class="img">
+                      <img src="./images/sillas ejecutivas.jpg" alt="" />
+                    </div>
+                    <div class="text">
+                      <p class="titulo">Set 6 Sillas Ejecutivas</p>
+                      <span class="promo">-%30</span>
+                      <p class="precio">$10,947</p>
+                      <p class="envio"><i>envío gratis</i></p>
+                    </div>
+                  </a>
+
+                  <a class="producto" href="./other-pages/productos/taburete.html">
+                    <div class="img">
+                      <img src="./images/taburete.jpg" alt="" />
+                    </div>
+                    <div class="text">
+                      <p class="titulo">Taburete</p>
+                      <span class="promo">-%30</span>
+                      <p class="precio">$947</p>
+                      <p class="envio"><i>envío gratis</i></p>
+                    </div>
+                  </a>
+
+               
+   
+                </div>
+              </div>
+              <button onclick="buttonRigthPromotion()">
+                <i class="fa-solid fa-caret-right fa-6x"></i></button>
+            </div>
+  
+          </div>
+
+      </main>
+      <script src="./js/main.js"></script>
+      <script src="./js/homepage.js"></script>
+    </div>
+  </body>
+</html>
